@@ -1,1 +1,0 @@
-Programs in java are tough to understand!
