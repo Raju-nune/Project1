@@ -1,0 +1,2 @@
+module CollectionFrameworkExamples {
+}
