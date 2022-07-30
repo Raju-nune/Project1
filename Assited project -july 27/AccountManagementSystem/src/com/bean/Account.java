@@ -33,5 +33,10 @@ public class Account {
 		this.name = name;
 		this.amount = amount;
 	}
+	@Override
+	public String toString() {
+		return "Account [accno=" + accno + ", name=" + name + ", amount=" + amount + "]";
+	}
+	
 
 }
