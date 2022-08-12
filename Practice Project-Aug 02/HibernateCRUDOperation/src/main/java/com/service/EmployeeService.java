@@ -20,14 +20,14 @@ public class EmployeeService {		// pure business logic
 		}
 	}
 	
-		public List<Employee> getAllEmployee() {
-		List<Employee> listOfEmp = ed.getAllEmployee();
-		Iterator<Employee> li = listOfEmp.iterator();
-		while(li.hasNext()) {
-			Employee emp = li.next();
-			emp.setSalary(emp.getSalary()+5000);
-		}
-		
-		return listOfEmp;
-	}
+//		public List<Employee> getAllEmployee() {
+//		List<Employee> listOfEmp = ed.getAllEmployee();
+//		Iterator<Employee> li = listOfEmp.iterator();
+//		while(li.hasNext()) {
+//			Employee emp = li.next();
+//			emp.setSalary(emp.getSalary()+5000);
+//		}
+//		
+//		return listOfEmp;
+//	}
 }

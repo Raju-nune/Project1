@@ -10,7 +10,7 @@ public class DBConfig {
         
 		Connection  conn=null;
 		try {
-			//load the driver
+			
 			Class.forName(props.getProperty("driver"));
 		
 					
@@ -21,11 +21,11 @@ public class DBConfig {
 			 
 			
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
+			System.out.println(e);
 		}catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		
+			System.out.println(e);
 		}
 		return conn;
 	}
