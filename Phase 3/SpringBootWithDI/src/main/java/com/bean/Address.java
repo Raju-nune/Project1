@@ -1,33 +1,26 @@
 package com.bean;
 
-public class Employee {
-private int id;
-private String name;
-private float salary;
-private Address add;
-public int getId() {
-	return id;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Address {
+private String city;
+private String state;
+public String getCity() {
+	return city;
 }
-public void setId(int id) {
-	this.id = id;
+public void setCity(String city) {
+	this.city = city;
 }
-public String getName() {
-	return name;
+public String getState() {
+	return state;
 }
-public void setName(String name) {
-	this.name = name;
+public void setState(String state) {
+	this.state = state;
 }
-public float getSalary() {
-	return salary;
-}
-public void setSalary(float salary) {
-	this.salary = salary;
-}
-public Address getAdd() {
-	return add;
-}
-public void setAdd(Address add) {
-	this.add = add;
+@Override
+public String toString() {
+	return "Address [city=" + city + ", state=" + state + "]";
 }
 
 }

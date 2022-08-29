@@ -11,7 +11,7 @@
 	<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
 	<property name="url" value="jdbc:mysql://localhost:3306/javatraining"></property>
 	<property name="username" value="root"></property>
-	<property name="password" value="root@123"></property>
+	<property name="password" value="RajuPavi@12"></property>
 </bean>
 
 
