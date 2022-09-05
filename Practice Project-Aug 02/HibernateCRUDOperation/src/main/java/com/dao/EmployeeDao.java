@@ -19,7 +19,7 @@ public class EmployeeDao {
 //	public int storeEmployee(Employee emp) {
 //		try {
 //			Class.forName("com.mysql.cj.jdbc.Driver");
-//Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javatraining", "root", "root@123");
+//Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javatraining", "root", "RajuPavi@12");
 //PreparedStatement pstmt = con.prepareStatement("insert into employee values(?,?,?)");
 //pstmt.setInt(1, emp.getId());
 //pstmt.setString(2, emp.getName());

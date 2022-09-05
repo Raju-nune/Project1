@@ -40,10 +40,10 @@ input[type=submit]:hover {
   
   padding: 20px;
 }
-body{
-background:url("feedback1.jpeg");
-background-size:cover;
-}
+//body{
+//background:url("feedback1.jpeg");
+//background-size:cover;
+//}
 ::placeholder{
 color:mintcream;
 }
@@ -51,7 +51,7 @@ color:mintcream;
 </style>
 </head>
 <body>
-<h1 align="center"> !---HI---RAJU----GIVE YOUR FEEDBACK------!</h1>
+<h1 align="center"> !---GIVE YOUR FEEDBACK---!</h1>
 <div class="container">
   <form method="post" action="/feedback1">
 <label for="firstname" style="color:Cyan">First Name</label>
