@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Sebastian",
+      "lastName": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Steve",
+      "lastName": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Ann",
+      "lastName": "Smith",
+      "email": "ann@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Raju",
+      "lastName": "Nune",
+      "email": "raju@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Girish",
+      "lastName": "Kumar",
+      "email": "giri12@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Pavithra",
+      "lastName": "KP",
+      "email": "pavi@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstName": "Sowji",
+      "lastName": "Nune",
+      "email": "sowji@gmail.com"
+    }
+  ],
+  "signupUsers": [
+    {
+      "FirstName": "Ram",
+      "LastName": "Mohan",
+      "email": "ram@gmail.com",
+      "password": "ram123",
+      "id": 1
+    },
+    {
+      "FirstName": "priya",
+      "LastName": "ram",
+      "email": "priyaram@gmail.com",
+      "password": "priya",
+      "id": 2
+    },
+    {
+      "FirstName": "NUNE",
+      "LastName": "RAJU",
+      "email": "raju123@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "FirstName": "Raju",
+      "LastName": "MS",
+      "email": "rajms@gmail.com",
+      "password": "1234",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
