@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-27T09:36:23 IST" name="Default suite" finished-at="2022-09-27T09:36:24 IST" duration-ms="106">
+    <groups>
+    </groups>
+    <test started-at="2022-09-27T09:36:23 IST" name="Default test" finished-at="2022-09-27T09:36:24 IST" duration-ms="106">
+      <class name="com.service.HookTestingMethods">
+        <test-method signature="f()[pri:0, instance:com.service.HookTestingMethods@197d671]" started-at="2022-09-27T09:36:24 IST" name="f" finished-at="2022-09-27T09:36:24 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.service.HookTestingMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
